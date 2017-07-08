@@ -1,0 +1,27 @@
+ifdef::env-github,env-browser[:outfilesuffix: .adoc]
+:rootdir: .
+:imagesdir: {rootdir}/images
+:toclevels: 2
+:toc:
+:numbered:
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+= node-buffer-pool
+
+== Install
+
+Install with `npm`:
+
+[source, bash]
+$ npm install node-buffer-pool --save
+
+== Usage
+
+```javascript
+const BufferPool = require('buffer-pool');
+```
